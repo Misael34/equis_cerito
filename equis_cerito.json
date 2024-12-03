@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "public": true,
+    "builds": [
+      { "src": "equis_cerito.html", "use": "@vercel/static" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "equis_cerito.html" }
+    ]
+  }
